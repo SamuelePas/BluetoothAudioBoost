@@ -196,7 +196,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:valueFrom="100"
-                    android:valueTo="160"
+                    android:valueTo="200"
                     android:value="130"
                     android:stepSize="1"
                     app:thumbColor="@color/accent_purple"
@@ -221,7 +221,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="160%"
+                        android:text="200%"
                         android:textSize="11sp"
                         android:textColor="@color/text_hint" />
                 </LinearLayout>

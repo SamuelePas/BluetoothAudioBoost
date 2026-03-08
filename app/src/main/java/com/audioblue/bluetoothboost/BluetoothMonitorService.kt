@@ -143,12 +143,14 @@ class BluetoothMonitorService : LifecycleService() {
                 startForeground(NOTIFICATION_ID, buildNotification(getString(R.string.notif_monitoring)))
                 isRunning = true
                 checkCurrentlyConnected()
+                notifyUI()
             }
             ACTION_STOP -> {
                 Log.d(TAG, "Service STOP")
                 disableBoost()
                 isRunning = false
                 connectedDeviceName = null
+                notifyUI()
                 stopForeground(STOP_FOREGROUND_REMOVE)
                 stopSelf()
             }
@@ -267,6 +269,7 @@ class BluetoothMonitorService : LifecycleService() {
         applyBoost()
 
         isBoostActive = true
+        notifyUI()
         Log.d(TAG, "Boost enabled at $boostPercent%")
     }
 
@@ -311,6 +314,12 @@ class BluetoothMonitorService : LifecycleService() {
         }
 
         isBoostActive = false
+        notifyUI()
+    }
+
+    /** Invia broadcast alla MainActivity per aggiornare la UI */
+    private fun notifyUI() {
+        sendBroadcast(Intent(MainActivity.ACTION_UI_UPDATE))
     }
 
     /** Converte percentuale (100–160) in millibel per LoudnessEnhancer */
