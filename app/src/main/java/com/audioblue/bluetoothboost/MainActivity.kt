@@ -90,7 +90,7 @@ class MainActivity : AppCompatActivity() {
 
         // Slider esteso 100–200%
         sliderBoost.valueFrom = 100f
-        sliderBoost.valueTo   = 200f
+        sliderBoost.valueTo   = 300f
         sliderBoost.stepSize  = 1f
         sliderBoost.value     = prefs.getInt(KEY_BOOST_PERCENT, DEFAULT_BOOST).toFloat()
         updateBoostLabel(sliderBoost.value.toInt())
