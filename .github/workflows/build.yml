@@ -25,7 +25,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build APK Debug
-        run: ./gradle assembleDebug --stacktrace
+        run: $(which gradle) assembleDebug --stacktrace
 
       - name: Carica APK come artefatto
         uses: actions/upload-artifact@v4
