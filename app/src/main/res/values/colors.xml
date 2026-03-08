@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand -->
+    <color name="accent_blue">#2979FF</color>
+    <color name="accent_blue_dark">#1C54B2</color>
+    <color name="accent_purple">#7C4DFF</color>
+
+    <!-- Backgrounds -->
+    <color name="bg_main">#F4F6FB</color>
+    <color name="card_bg">#FFFFFF</color>
+
+    <!-- Status cards -->
+    <color name="status_off">#9E9E9E</color>
+    <color name="status_monitoring">#2979FF</color>
+    <color name="status_boost">#00BFA5</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_hint">#9CA3AF</color>
+
+    <!-- UI elements -->
+    <color name="slider_inactive">#E0E0E0</color>
+
+    <!-- Primary for theme -->
+    <color name="colorPrimary">#2979FF</color>
+    <color name="colorPrimaryVariant">#1C54B2</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#7C4DFF</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnSurface">#1A1A2E</color>
+    <color name="colorBackground">#F4F6FB</color>
+    <color name="colorOnBackground">#1A1A2E</color>
+    <color name="colorError">#B00020</color>
+    <color name="colorOnError">#FFFFFF</color>
+</resources>

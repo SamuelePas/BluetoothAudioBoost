@@ -1,0 +1,2 @@
+-keep class com.audioblue.bluetoothboost.** { *; }
+-keepclassmembers class com.audioblue.bluetoothboost.** { *; }

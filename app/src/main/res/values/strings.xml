@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BT Audio Boost</string>
+    <string name="app_subtitle">Amplifica audio cuffie Bluetooth</string>
+
+    <!-- Section labels -->
+    <string name="section_device">Dispositivo Bluetooth</string>
+    <string name="section_boost">Livello Amplificazione</string>
+
+    <!-- Device -->
+    <string name="device_saved_label">Dispositivo memorizzato:</string>
+    <string name="no_device_saved">Nessun dispositivo selezionato</string>
+    <string name="btn_select_device">Seleziona dispositivo abbinato…</string>
+    <string name="select_device">Seleziona dispositivo Bluetooth</string>
+    <string name="device_saved">Dispositivo salvato: %1$s</string>
+    <string name="no_paired_devices">Nessun dispositivo Bluetooth abbinato trovato</string>
+    <string name="bluetooth_not_enabled">Bluetooth non attivo. Attivalo nelle impostazioni.</string>
+    <string name="select_device_first">Prima seleziona un dispositivo Bluetooth</string>
+
+    <!-- Boost -->
+    <string name="boost_level_label">Livello boost:</string>
+    <string name="boost_info">Il boost viene applicato solo con il dispositivo memorizzato connesso.\n100% = nessun boost, 160% ≈ +4 dB</string>
+
+    <!-- Service -->
+    <string name="service_label">Monitoraggio attivo</string>
+    <string name="service_desc">Rileva connessione e applica il boost</string>
+    <string name="service_started">Servizio avviato ✓</string>
+    <string name="service_stopped">Servizio interrotto</string>
+
+    <!-- Status -->
+    <string name="status_service_off">Servizio non attivo</string>
+    <string name="status_monitoring">In ascolto… Connetti il dispositivo</string>
+    <string name="status_boost_active">🔊 Boost attivo – %1$s</string>
+
+    <!-- Permissions -->
+    <string name="permissions_required">Alcuni permessi sono necessari per il funzionamento corretto</string>
+    <string name="cancel">Annulla</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">BT Audio Boost</string>
+    <string name="notif_channel_desc">Monitoraggio dispositivo Bluetooth per boost audio</string>
+    <string name="notif_monitoring">In ascolto per dispositivo Bluetooth…</string>
+    <string name="notif_boost_active">Boost attivo su: %1$s</string>
+
+    <!-- Footer -->
+    <string name="footer_info">Le chiamate vengono sempre riprodotte sul telefono al volume normale</string>
+</resources>
