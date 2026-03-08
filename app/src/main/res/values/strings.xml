@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">BT Audio Boost</string>
-    <string name="app_subtitle">Amplifica audio cuffie Bluetooth</string>
+    <string name="app_subtitle">Bluetooth Booster v1 by Samuele Pasqualini 2026</string>
 
     <!-- Section labels -->
     <string name="section_device">Dispositivo Bluetooth</string>
