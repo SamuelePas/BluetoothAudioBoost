@@ -19,7 +19,7 @@
 
     <!-- Boost -->
     <string name="boost_level_label">Livello boost:</string>
-    <string name="boost_info" formatted="false">Il boost si attiva solo col dispositivo memorizzato connesso.\n100% = nessun boost · 160% ≈ +4 dB · 200% ≈ +6 dB</string>
+    <string name="boost_info" formatted="false">Il boost viene applicato solo con il dispositivo memorizzato connesso.\n100% = nessun boost · 160% ≈ +4 dB · 200% ≈ +6 dB</string>
 
     <!-- Service -->
     <string name="service_label">Monitoraggio attivo</string>
